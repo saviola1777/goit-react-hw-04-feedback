@@ -6,7 +6,7 @@ import FeedbackOptions from 'components/FeedbackOptions/FeedbackOptions';
 import Notification from 'components/Notification/Notification';
 import Cointeiner from 'components/Cointeiner/Cointeiner';
 
-const App = () => {                                   // useState створює стан і метод, який змінюватиме його значення
+const App = () => {                                   // useState створює стан і метод, який змінюватиме його значення .
   const [state, setStateValue] = useState({              //в state зберігається текущий стан , setStateValue метод для зміни стейту
     good: 0,                                          //якшо потрібно змінити стан state непотрібно this тільки state.good наприклад
     neutral: 0,
